@@ -1,26 +1,147 @@
+```css
+/* General Page Styling */
 body {
-    font-family: Arial, sans-serif;
-    margin: 30px;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 h1 {
-    text-align: center;
+  font-size: 32px;
 }
 
-#add-expense {
-    background-color: lightblue;
-    padding: 20px;
-    margin-top: 20px;
+h1 img {
+  vertical-align: middle;
+  margin-right: 10px;
 }
 
-.expenses {
-    background-color: lightgray;
-    padding: 20px;
-    margin-top: 20px;
+main {
+  max-width: 900px;
+  margin: auto;
 }
 
-input {
-    display: block;
-    margin-bottom: 15px;
-    padding: 8px;
+
+/* Add Expense Section */
+.add-expense-section {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 25px;
+  border-radius: 8px;
 }
+
+.add-expense-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.add-expense-section input,
+.add-expense-section select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+/* Focus Selector */
+input:focus,
+select:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+
+/* Negation Selector */
+input:not([type="submit"]) {
+  background-color: #fafafa;
+}
+
+
+/* Button */
+button {
+  padding: 12px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+
+/* Expenses Section */
+.expenses-section {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 25px;
+  border-radius: 8px;
+}
+
+
+/* Descendant Selector */
+.expenses-section td {
+  font-size: 15px;
+}
+
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+/* Position Selector */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+
+/* Hover Selector */
+tr:hover {
+  background-color: #ddd;
+}
+
+
+/* Details Section */
+details {
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 25px;
+  border-radius: 8px;
+}
+
+summary {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+/* Video */
+iframe {
+  max-width: 100%;
+  border: none;
+}
+```
