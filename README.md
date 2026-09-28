@@ -1,33 +1,62 @@
 # Budget Tracker
 
-## Week 3 - Visual Design Challenge
+## About the Project
 
-This project is a Budget Tracker created using HTML and CSS.
+This Budget Tracker is a simple web application designed to help users record and organize their daily expenses.
 
-### What I Built
+For Week 3, I improved the visual design of my existing Budget Tracker using CSS without adding new HTML structure or functionality.
 
-I improved the visual design of my existing Budget Tracker by applying a consistent color palette, custom fonts, table styling, form styling, and the CSS Box Model.
+## Design Features
 
-### Design Features
+### Color Palette
 
-- Used a consistent green, white, and light gray color palette.
-- Added custom Google Fonts for headings and body text.
-- Styled the expense table with borders, padding, and alternating row colors.
-- Styled the Add Expense form and its input fields.
-- Added a styled Add Expense button.
-- Used margin and padding to create proper spacing.
-- Used borders and border-radius to create card-style sections.
-- Improved the overall readability and appearance of the Budget Tracker.
+I used a clean and consistent blue, white, and light-gray color palette throughout the application.
 
-### Files
+### Typography
 
-- `index.html` - Contains the structure of the Budget Tracker.
-- `style.css` - Contains the visual styling and layout.
-- `README.md` - Explains the project and its features.
+I used the Google Font **Poppins** to make the headings, labels, buttons, and other text easier to read.
 
-### Technologies Used
+### Expense Form
 
-- HTML
-- CSS
-- Google Fonts
-- GitHub
+The Add Expense form includes:
+
+* Styled input fields
+* A category dropdown
+* Proper spacing
+* Borders
+* Rounded corners
+* A styled button
+
+### Expense Table
+
+The Expense Table includes:
+
+* A colored table header
+* Borders
+* Proper cell spacing
+* Alternating row colors
+* Rounded corners
+
+### CSS Box Model
+
+I used:
+
+* Margin
+* Padding
+* Borders
+* Border radius
+
+These properties create clear visual cards for the page heading, Add Expense form, and Expense Table.
+
+## Technologies Used
+
+* HTML
+* CSS
+* Google Fonts
+* GitHub
+
+## Project Files
+
+* `index.html` — Contains the Budget Tracker structure.
+* `style.css` — Contains the visual design and styling.
+* `README.md` — Explains the project and its features.
