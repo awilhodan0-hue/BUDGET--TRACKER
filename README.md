@@ -1,53 +1,33 @@
 # Budget Tracker
 
-## About the Project
+## Week 3 - Visual Design Challenge
 
-This Budget Tracker is a simple web page that helps users record and view their expenses. It was built using HTML and CSS.
+This project is a Budget Tracker created using HTML and CSS.
 
-## Features
+### What I Built
 
-* Add expense information using a form.
-* Select an expense category from a dropdown menu.
-* View expenses in an organized table.
-* Includes sample expense data.
-* Includes a budgeting tips video.
-* Includes a Budget Tracker logo.
-* Includes a collapsible "How to use this tracker" section.
-* Uses CSS styling and advanced CSS selectors.
+I improved the visual design of my existing Budget Tracker by applying a consistent color palette, custom fonts, table styling, form styling, and the CSS Box Model.
 
-## Files
+### Design Features
 
-### index.html
+- Used a consistent green, white, and light gray color palette.
+- Added custom Google Fonts for headings and body text.
+- Styled the expense table with borders, padding, and alternating row colors.
+- Styled the Add Expense form and its input fields.
+- Added a styled Add Expense button.
+- Used margin and padding to create proper spacing.
+- Used borders and border-radius to create card-style sections.
+- Improved the overall readability and appearance of the Budget Tracker.
 
-The `index.html` file contains the structure of the Budget Tracker. It includes:
+### Files
 
-* The main heading
-* Expense form
-* Category dropdown
-* Expense table
-* Sample expense data
-* Image
-* YouTube video
-* How-to-use section
+- `index.html` - Contains the structure of the Budget Tracker.
+- `style.css` - Contains the visual styling and layout.
+- `README.md` - Explains the project and its features.
 
-### style.css
+### Technologies Used
 
-The `style.css` file controls the appearance of the page. It includes:
-
-* Page and form styling
-* Table borders and spacing
-* Colored table headers
-* Alternating table rows
-* Hover effects
-* Button styling
-* Input focus effects
-* Advanced CSS selectors
-
-## Technologies Used
-
-* HTML5
-* CSS3
-
-## Author
-
-Budget Tracker Project
+- HTML
+- CSS
+- Google Fonts
+- GitHub
